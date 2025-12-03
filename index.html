@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TT.League Analyzer - Prémium Statisztika</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>TT.<span class="highlight">Analyzer</span></h2>
+            </div>
+            <ul class="nav-links">
+                <li class="active" data-tab="dashboard">
+                    <span class="icon">�</span> Élő Elemző
+                </li>
+                <li data-tab="history">
+                    <span class="icon">�</span> Előzmények
+                </li>
+                <li data-tab="settings">
+                    <span class="icon">⚙️</span> Beállítások
+                </li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <!-- Dashboard View -->
+            <section id="dashboard" class="view active">
+                <header class="dashboard-header">
+                    <div>
+                        <h1>Liga Pro Csehország</h1>
+                        <p class="subtitle">Statisztikai Dominancia & Trendfigyelő</p>
+                    </div>
+                    <div class="header-actions">
+                        <button id="refreshBtn" class="btn-icon" title="Frissítés">↻</button>
+                    </div>
+                </header>
+
+                <div class="stats-overview">
+                    <div class="stat-card glass">
+                        <h3>Aktív Mérkőzések</h3>
+                        <p class="value" id="activeMatchesCount">0</p>
+                    </div>
+                    <div class="stat-card glass">
+                        <h3>Erős Tippek (>70%)</h3>
+                        <p class="value highlight-text" id="strongSignalsCount">0</p>
+                    </div>
+                    <div class="stat-card glass">
+                        <h3>Napi Átlag ROI</h3>
+                        <p class="value" id="dailyRoi">--%</p>
+                    </div>
+                </div>
+
+                <div class="matches-container">
+                    <h2 class="section-title">Következő Mérkőzések</h2>
+                    <div id="matchesList" class="matches-grid">
+                        <!-- Match cards will be injected here -->
+                        <div class="loading-state">
+                            <div class="spinner"></div>
+                            <p>Adatok betöltése...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History View (Placeholder) -->
+            <section id="history" class="view">
+                <header>
+                    <h1>Előzmények</h1>
+                </header>
+                <div class="card glass">
+                    <p>A korábbi elemzések itt jelennek majd meg.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal for Match Details -->
+    <div id="matchModal" class="modal hidden">
+        <div class="modal-content glass-panel">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalMatchTitle">Mérkőzés Részletei</h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="js/calculators.js"></script>
+    <script src="js/data_fetcher.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

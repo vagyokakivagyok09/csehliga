@@ -1,0 +1,170 @@
+{
+  "798": {
+    "id": 798,
+    "name": "Bartunek Radek",
+    "rating": 584,
+    "image_url": "/media/players/98/798.png",
+    "last_updated": "2025-12-03T16:58:34.541Z"
+  },
+  "805": {
+    "id": 805,
+    "name": "Kucirek Ondrej",
+    "rating": 546,
+    "image_url": "/media/players/05/805.png",
+    "last_updated": "2025-12-03T16:58:27.665Z"
+  },
+  "825": {
+    "id": 825,
+    "name": "Regner Milan",
+    "rating": 513,
+    "image_url": "/media/players/25/825.png",
+    "last_updated": "2025-12-03T16:58:31.040Z"
+  },
+  "834": {
+    "id": 834,
+    "name": "Andrle Tomas",
+    "rating": 616,
+    "image_url": "/media/players/34/834.png",
+    "last_updated": "2025-12-03T16:58:44.643Z"
+  },
+  "847": {
+    "id": 847,
+    "name": "Smrcek Milan",
+    "rating": 540,
+    "image_url": "/media/players/47/847.png",
+    "last_updated": "2025-12-03T16:58:20.977Z"
+  },
+  "894": {
+    "id": 894,
+    "name": "Sulava Lubor",
+    "rating": 548,
+    "image_url": "/media/players/94/894.png",
+    "last_updated": "2025-12-03T16:58:34.541Z"
+  },
+  "1070": {
+    "id": 1070,
+    "name": "Briska Jan",
+    "rating": 512,
+    "image_url": "/media/players/70/1070.png",
+    "last_updated": "2025-12-03T16:58:31.040Z"
+  },
+  "1078": {
+    "id": 1078,
+    "name": "Darin Kyryl",
+    "rating": 541,
+    "image_url": "/media/players/78/1078.png",
+    "last_updated": "2025-12-03T16:58:44.643Z"
+  },
+  "1204": {
+    "id": 1204,
+    "name": "Adamec Miroslav",
+    "rating": 570,
+    "image_url": "/media/players/04/1204.png",
+    "last_updated": "2025-12-03T16:58:20.962Z"
+  },
+  "1377": {
+    "id": 1377,
+    "name": "Trinta Mihail",
+    "rating": 578,
+    "image_url": "/media/players/77/1377.png",
+    "last_updated": "2025-12-03T16:58:41.351Z"
+  },
+  "1407": {
+    "id": 1407,
+    "name": "Longin Milan",
+    "rating": 513,
+    "image_url": "/media/players/07/1407.png",
+    "last_updated": "2025-12-03T16:58:24.190Z"
+  },
+  "1412": {
+    "id": 1412,
+    "name": "Steffan Jan",
+    "rating": 554,
+    "image_url": "/media/players/12/1412.png",
+    "last_updated": "2025-12-03T16:58:37.811Z"
+  },
+  "1498": {
+    "id": 1498,
+    "name": "Malek Lukas",
+    "rating": 593,
+    "image_url": "/media/players/98/1498.png",
+    "last_updated": "2025-12-03T16:58:41.351Z"
+  },
+  "1547": {
+    "id": 1547,
+    "name": "Parhomenko Dmitro",
+    "rating": 611,
+    "image_url": "/media/players/47/1547.png",
+    "last_updated": "2025-12-03T16:58:44.643Z"
+  },
+  "1605": {
+    "id": 1605,
+    "name": "Novotny Miroslav",
+    "rating": 517,
+    "image_url": "/media/players/05/1605.png",
+    "last_updated": "2025-12-03T16:58:37.811Z"
+  },
+  "1607": {
+    "id": 1607,
+    "name": "Horak David",
+    "rating": 618,
+    "image_url": "/media/players/07/1607.png",
+    "last_updated": "2025-12-03T16:58:34.541Z"
+  },
+  "1621": {
+    "id": 1621,
+    "name": "Cetner Milan",
+    "rating": 423,
+    "image_url": "/media/players/21/1621.png",
+    "last_updated": "2025-12-03T16:58:31.040Z"
+  },
+  "1653": {
+    "id": 1653,
+    "name": "Bruzek Petr",
+    "rating": 520,
+    "image_url": "/media/players/53/1653.png",
+    "last_updated": "2025-12-03T16:58:24.190Z"
+  },
+  "1670": {
+    "id": 1670,
+    "name": "Pospisil Milos",
+    "rating": 510,
+    "image_url": "/media/players/70/1670.png",
+    "last_updated": "2025-12-03T16:58:27.665Z"
+  },
+  "1673": {
+    "id": 1673,
+    "name": "Nguyen Ba Hoang Tai",
+    "rating": 630,
+    "image_url": "/media/players/73/1673.png",
+    "last_updated": "2025-12-03T16:58:44.643Z"
+  },
+  "1681": {
+    "id": 1681,
+    "name": "Svoboda Adam",
+    "rating": 537,
+    "image_url": "/media/players/81/1681.png",
+    "last_updated": "2025-12-03T16:58:27.665Z"
+  },
+  "1690": {
+    "id": 1690,
+    "name": "Mikuska Alexander",
+    "rating": 582,
+    "image_url": "/media/players/90/1690.png",
+    "last_updated": "2025-12-03T16:58:34.541Z"
+  },
+  "1751": {
+    "id": 1751,
+    "name": "Havel Jiri",
+    "rating": 521,
+    "image_url": "/media/players/51/1751.png",
+    "last_updated": "2025-12-03T16:58:24.190Z"
+  },
+  "1813": {
+    "id": 1813,
+    "name": "Drazan Pavel",
+    "rating": 574,
+    "image_url": "/media/players/13/1813.jpg",
+    "last_updated": "2025-12-03T16:58:37.811Z"
+  }
+}
